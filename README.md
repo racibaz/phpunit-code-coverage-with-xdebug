@@ -9,6 +9,11 @@ or
 ```sh
 ./vendor/bin/phpunit -d xdebug.profiler_enable=on tests --coverage-html code-coverage
 ```
+or 
+
+```sh
+XDEBUG_MODE=coverage phpunit -d tests --coverage-html code-coverage
+```
 
 [![N|Solid](http://recaicansiz.com/photos/phpunit/1.png)]()
 [![N|Solid](http://recaicansiz.com/photos/phpunit/2.png)]()
